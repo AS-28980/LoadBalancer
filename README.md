@@ -1,4 +1,4 @@
-# SDN-Inspired Load Balancer (C++ Implementation)
+# SDN-Inspired Load Balancer
 
 ## Project Overview
 This project is a C++ implementation of an SDN load balancer. It uses plain Linux sockets and multithreading to simulate:
