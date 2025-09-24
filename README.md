@@ -1,8 +1,7 @@
 # SDN-Inspired Load Balancer (C++ Implementation)
 
 ## Project Overview
-This project is a C++ re-implementation of an SDN load balancer that originally ran on Mininet + POX (Python).  
-Instead of Mininet, it uses plain Linux sockets and multithreading to simulate:
+This project is a C++ implementation of an SDN load balancer. It uses plain Linux sockets and multithreading to simulate:
 - **Clients** sending requests through a load balancer
 - **Servers** (backends) with configurable artificial delays
 - A **Load Balancer** proxy that distributes connections according to different scheduling policies
@@ -13,8 +12,6 @@ Instead of Mininet, it uses plain Linux sockets and multithreading to simulate:
 - **Concurrency:** `std::thread`, `std::mutex`
 - **Networking:** POSIX sockets (TCP)
 - **Config Parsing:** [nlohmann/json](https://github.com/nlohmann/json) for reading backend lists
-
-This allows you to experiment with different scheduling policies and measure latency/throughput without requiring Mininet or POX.
 
 ---
 
