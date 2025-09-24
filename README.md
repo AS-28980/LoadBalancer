@@ -43,10 +43,8 @@ The load balancer currently supports three policies:
 
 Install required packages:
 ```bash
-sudo apt update
-sudo apt install -y g++ cmake make git
 sudo apt install -y nlohmann-json3-dev   
-git clone <this-repo-url> LoadBalancer
+git clone <https://github.com/AS-28980/LoadBalancer.git> LoadBalancer
 cd LoadBalancer
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
