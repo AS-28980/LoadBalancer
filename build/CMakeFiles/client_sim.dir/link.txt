@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/client_sim.dir/src/client_sim.cpp.o CMakeFiles/client_sim.dir/src/main_client.cpp.o -o client_sim  -lpthread 

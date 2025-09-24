@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/lb.dir/src/load_balancer.cpp.o CMakeFiles/lb.dir/src/backend.cpp.o CMakeFiles/lb.dir/src/main_lb.cpp.o -o lb  -lpthread 
